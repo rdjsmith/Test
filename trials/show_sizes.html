@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function showUser(str) {
+  xmlhttp.open("GET","getcmkg.php?q=" + str,true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<form id="takesize">
+<select name="users" onchange="showUser(this.value)">
+<option value="">Select a person:</option>
+<option value="Inch-Lb">Inch-Lb</option>
+<option value="Cm-Kg">Cm-Kg</option>
+</select>
+</form>
+<br>
+<div id="txtHint"><b>Person info will be listed here.</b></div>
+
+</body>
+</html>

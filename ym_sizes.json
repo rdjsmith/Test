@@ -1,0 +1,4 @@
+[
+    {"Unit" : "InchLb" , "Size" : "32R" , "Length" : "30" , "Chest" : "34" }, 
+    {"Unit" : "InchLb" , "Size" : "34R" , "Length" : "30" , "Chest" : "36" }, 
+    {"Unit" : "InchLb" , "Size" : "36R" , "Length" : "30.5" , "Chest" : "38" }]

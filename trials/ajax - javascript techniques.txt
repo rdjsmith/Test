@@ -1,0 +1,3 @@
+If you want to update a non form element, be sure to use the innerHTML attribute that is associated with all HTML elements. In our case we are updating a div every time a query is sent off. Also, remember that you can easily access an HTML element by giving it an id and using Javascript's document.getElementById function.
+
+If you have successfully completed this advanced Ajax lesson then you know how to use MySQL, PHP, HTML, and Javascript in tandem to write Ajax applications.
